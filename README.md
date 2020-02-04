@@ -8,10 +8,10 @@
           
 ## 二代组装
 
-- Minia
-- SPAdes: 细菌基因组常用
-- ALLPaths-LG
-- SOAPdenovo: 华大出品
+- [Minia](https://github.com/GATB/minia)
+- [SPAdes](https://github.com/ablab/spades): 细菌基因组常用
+- [ALLPaths-LG](http://software.broadinstitute.org/allpaths-lg/blog/?page_id=12)
+- [SOAPdenovo2](https://github.com/aquaskyline/SOAPdenovo2): 华大出品
 
 ## 三代contig组装
 
@@ -25,6 +25,7 @@
 - [SMARTdenovo](https://github.com/ruanjue/smartdenovo)       
 - [WTDBG2](https://github.com/ruanjue/wtdbg2): 不对原始数据纠错,快速的组装工具
 - [Shasta](https://github.com/chanzuckerberg/shasta): Nanopore组装工具
+- [HASLR](https://github.com/vpc-ccg/haslr): 快速混合组装长reads（PacBio或Nanopore）和二代数据
 
 ## GFA相关
 
@@ -39,10 +40,10 @@ GFA是目前组装比较认可的格式
 
 ##  三代组装polish
 
-- Pilon: 利用二代进行polish
-- Racon: 利用三代进行polish
-- NextPolish: 利用二代进行polish
-- Medaka: 利用三代对nanpore进行polish
+- [Pilon](https://github.com/broadinstitute/pilon/wiki): 利用二代进行polish
+- [Racon](https://github.com/isovic/racon): 利用三代进行polish
+- [NextPolish](https://github.com/Nextomics/NextPolish): 利用二代进行polish
+- [Medaka](https://github.com/nanoporetech/medaka): 利用三代对Nanopore进行polish
 
 ## 去除冗余序列
 
@@ -85,22 +86,22 @@ GFA是目前组装比较认可的格式
 
 ## 重复序列注释
 
-- RepeatModeler
-- RepeatMasker
+- [RepeatModeler](http://www.repeatmasker.org/RepeatModeler/)
+- [RepeatMasker](http://www.repeatmasker.org/)
 - [EDTA](https://github.com/oushujun/EDTA)
 - [LTRpred](https://hajkd.github.io/LTRpred/)
           
 
 ## 基因注释
 
-- 从头预测
-  - AUGUSTUS
-  - SNAP
-  - GeneMark
+### 从头预测
+- [AUGUSTUS](http://bioinf.uni-greifswald.de/augustus/)
+- [SNAP](https://github.com/KorfLab/SNAP)
+- [GeneMark](http://exon.gatech.edu/GeneMark/)
 
-- 注释流程
-  - [Braker2](https://github.com/Gaius-Augustus/BRAKER)
-  - [MAKER](https://www.yandell-lab.org/software/maker.html)
+### 注释流程
+- [Braker2](https://github.com/Gaius-Augustus/BRAKER)
+- [MAKER](https://www.yandell-lab.org/software/maker.html)
              
 
 ## WGD分析
