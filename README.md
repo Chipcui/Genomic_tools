@@ -12,6 +12,11 @@
 - [SPAdes](https://github.com/ablab/spades): 细菌基因组常用
 - [ALLPaths-LG](http://software.broadinstitute.org/allpaths-lg/blog/?page_id=12)
 - [SOAPdenovo2](https://github.com/aquaskyline/SOAPdenovo2): 华大出品
+- [SGA](https://github.com/jts/sga)
+
+### 泛基因组分析
+
+- [HUPAN](http://cgm.sjtu.edu.cn/hupan/)
 
 ## 三代contig组装
 
@@ -62,6 +67,9 @@ GFA是目前组装比较认可的格式
 - [3D-DNA](https://github.com/theaidenlab/3d-dna): 搭配JuicerBox效果极佳（但是速度有点慢） 
 - [ALLHiC](https://github.com/tangerzhang/ALLHiC): 多倍体HiC组装             
 - LACHESIS: 古老的工具，已不再维护
+- [HiC-Pro](https://github.com/nservant/HiC-Pro)
+- [HiCPlotter](https://github.com/kcakdemir/HiCPlotter)
+
 
 ### 光学图谱
 
@@ -101,27 +109,63 @@ GFA是目前组装比较认可的格式
 
 ### 注释流程
 - [Braker2](https://github.com/Gaius-Augustus/BRAKER)
-- [MAKER](https://www.yandell-lab.org/software/maker.html)
-             
+- [MAKER-P](http://www.yandell-lab.org/software/maker-p.html): 针对植物基因组的注释流程
+- [PASA](https://github.com/PASApipeline/PASApipeline)             
 
 ## WGD分析
 
 - [wgd](https://github.com/arzwa/wgd)
+- [GenoDup](https://github.com/MaoYafei/GenoDup-Pipeline)
+- [WGDdetector](https://github.com/yongzhiyang2012/WGDdetector)
 
 ## 全基因组比对软件
 
-- LAST
-- LASTZ
-- MUMMER
-- minimap2
+- [LAST](http://last.cbrc.jp/)
+- [LASTZ](https://github.com/lastz/lastz)
+- [MUMMER](https://mummer4.github.io/index.html)
+- [minimap2](https://github.com/lh3/minimap2)
+- [NGMLR](https://github.com/philres/ngmlr)
+- [BLASR](https://github.com/PacificBiosciences/blasr): PacBio数据比对工具
 
 ## 共线性可视化
 
-- [dotPlotly](https://github.com/tpoorten/dotPlotly)         
+- [dotPlotly](https://github.com/tpoorten/dotPlotly)
+- [MCscan (Python version)](https://github.com/tanghaibao/jcvi/wiki/MCscan-(Python-version))         
+- [Circos](http://circos.ca/)
 
 ## 群体结构
 
-- STRUTURE
+- [STRUTURE](https://web.stanford.edu/group/pritchardlab/structure.html)
 - [Admixture](http://software.genetics.ucla.edu/admixture/)
 - [lostruct](https://github.com/petrelharp/local_pca)
-          
+
+## 基因组结构变异
+### 二代数据
+
+- [iSVP](http://nagasakilab.csml.org/en/isvp)
+- [intansv](https://venyao.github.io/intansv/): 对多个软件的结构变异鉴定结果进行整合和可视化
+- [SpeedSeq](https://github.com/hall-lab/speedseq)
+- [novoBreak](https://github.com/czc/nb_distribution)
+- [HugeSeq](https://github.com/StanfordBioinformatics/HugeSeq)
+- [Delly](https://github.com/dellytools/delly)
+- [freebayes](https://github.com/ekg/freebayes)
+- [Pindel](https://github.com/genome/pindel)
+- [LUMPY](https://github.com/arq5x/lumpy-sv)
+- [MetaSV](https://github.com/bioinform/metasv)
+- [FusorSV](https://github.com/timothyjamesbecker/FusorSV)
+- [Manta](https://github.com/Illumina/manta)
+- [Parliament2](https://github.com/dnanexus/parliament2)
+- [BreakDancer](http://gmt.genome.wustl.edu/packages/breakdancer/index.html)
+- [BreakSeq2](https://github.com/bioinform/breakseq2)
+- [CNVnator](https://github.com/abyzovlab/CNVnator)
+
+### 三代数据
+- [Sniffles](https://github.com/fritzsedlazeck/Sniffles)
+- [SVIM](https://github.com/eldariont/svim)
+- [NextSV2](https://github.com/Nextomics/nextsv)
+- [PBHoney](https://sourceforge.net/projects/pb-jelly/)
+- [SMRT-SV](https://github.com/EichlerLab/smrtsv2): 使用PacBio RS II or Sequel数据来鉴定SV
+- [smartie-sv](https://github.com/zeeev/smartie-sv)
+
+### 综合性工具
+- [multibreak-sv](https://github.com/raphael-group/multibreak-sv): 支持检测二代和三代数据中的结构变异
