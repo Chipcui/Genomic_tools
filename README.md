@@ -1,6 +1,8 @@
-# 基因组学工具合集
+# 组学工具合集
 
-整理了一些我所知道的和基因组学相关的工具，可能不全面，欢迎补充
+整理了一些目前知道的与组学相关的工具，可能不全面，欢迎补充
+
+# 基因组学
 
 ## 一代组装
 
@@ -68,7 +70,8 @@ GFA是目前组装比较认可的格式
 - [ALLHiC](https://github.com/tangerzhang/ALLHiC): 多倍体HiC组装             
 - LACHESIS: 古老的工具，已不再维护
 - [HiC-Pro](https://github.com/nservant/HiC-Pro)
-- [HiCPlotter](https://github.com/kcakdemir/HiCPlotter)
+- [HiCPlotter](https://github.com/kcakdemir/HiCPlotter)：HiC数据可视化
+- [HiPiler](http://hipiler.lekschas.de/): 对HiC数据进行可视化的交互式网页工具
 
 
 ### 光学图谱
@@ -103,13 +106,15 @@ GFA是目前组装比较认可的格式
 ## 基因注释
 
 ### 从头预测
+
 - [AUGUSTUS](http://bioinf.uni-greifswald.de/augustus/)
 - [SNAP](https://github.com/KorfLab/SNAP)
 - [GeneMark](http://exon.gatech.edu/GeneMark/)
 
 ### 注释流程
+
 - [Braker2](https://github.com/Gaius-Augustus/BRAKER)
-- [MAKER-P](http://www.yandell-lab.org/software/maker-p.html): 针对植物基因组的注释流程
+- [MAKER-P](http://www.yandell-lab.org/software/maker-p.html): 专门针对植物基因组的注释流程
 - [PASA](https://github.com/PASApipeline/PASApipeline)             
 
 ## WGD分析
@@ -117,6 +122,17 @@ GFA是目前组装比较认可的格式
 - [wgd](https://github.com/arzwa/wgd)
 - [GenoDup](https://github.com/MaoYafei/GenoDup-Pipeline)
 - [WGDdetector](https://github.com/yongzhiyang2012/WGDdetector)
+
+## 基因组进化
+
+- [CHROnicle](http://www.lcqb.upmc.fr/CHROnicle/)
+
+## 同源分析
+
+- [OrthoFinder](http://www.stevekellylab.com/software/orthofinder): 可以推断直系同源组和直系同源基因
+- [OrthoMCL](https://orthomcl.org/orthomcl/)
+- [OrthoCluster](http://genome.sfu.ca/orthoclusterdb/index.html)
+- [InParanoid](http://inparanoid.sbc.su.se/cgi-bin/index.cgi)
 
 ## 全基因组比对软件
 
@@ -126,6 +142,11 @@ GFA是目前组装比较认可的格式
 - [minimap2](https://github.com/lh3/minimap2)
 - [NGMLR](https://github.com/philres/ngmlr)
 - [BLASR](https://github.com/PacificBiosciences/blasr): PacBio数据比对工具
+
+## 共线性分析
+
+- [MCScanX](http://chibba.pgml.uga.edu/mcscan2/)
+- [SynChro](http://www.lcqb.upmc.fr/CHROnicle/SynChro.html)
 
 ## 共线性可视化
 
@@ -139,7 +160,7 @@ GFA是目前组装比较认可的格式
 - [Admixture](http://software.genetics.ucla.edu/admixture/)
 - [lostruct](https://github.com/petrelharp/local_pca)
 
-## 基因组结构变异
+## 结构变异
 ### 二代数据
 
 - [iSVP](http://nagasakilab.csml.org/en/isvp)
@@ -160,6 +181,7 @@ GFA是目前组装比较认可的格式
 - [CNVnator](https://github.com/abyzovlab/CNVnator)
 
 ### 三代数据
+
 - [Sniffles](https://github.com/fritzsedlazeck/Sniffles)
 - [SVIM](https://github.com/eldariont/svim)
 - [NextSV2](https://github.com/Nextomics/nextsv)
@@ -168,4 +190,66 @@ GFA是目前组装比较认可的格式
 - [smartie-sv](https://github.com/zeeev/smartie-sv)
 
 ### 综合性工具
+
 - [multibreak-sv](https://github.com/raphael-group/multibreak-sv): 支持检测二代和三代数据中的结构变异
+
+### 基因组可视化
+
+- [JBrowse](https://jbrowse.org/): 支持多种文件格式的基因组浏览器
+- [IGV](https://software.broadinstitute.org/software/igv/): 支持多种文件格式的基因组浏览器
+- [Epiviz](https://epiviz.github.io/): 可以对功能基因组数据进行交互式可视化
+- [TASUKE+](https://tasuke.dna.affrc.go.jp/): 基于web的基因组浏览器
+
+## 系统进化
+### 多序列比对
+
+- [Clustal W/X](http://www.clustal.org/clustal2/)
+- [MUSCLE](https://www.drive5.com/muscle/)
+- [T-Coffee](http://www.tcoffee.org/Projects/tcoffee/index.html)
+- [MAFFT](https://mafft.cbrc.jp/alignment/software/)
+- [PROBCONS](http://probcons.stanford.edu/)
+
+### 多序列比对可视化
+
+- [NCBI Multiple Sequence Alignment Viewer](https://www.ncbi.nlm.nih.gov/projects/msaviewer/)
+- [BoxShade](https://embnet.vital-it.ch/software/BOX_form.html)
+- [ESPript](http://espript.ibcp.fr/ESPript/cgi-bin/ESPript.cgi)
+- [Tablet](https://ics.hutton.ac.uk/tablet/)
+
+### 进化模型选择
+
+- [ModelTest-NG](https://github.com/ddarriba/modeltest)
+- [MrModeltest2](https://github.com/nylander/MrModeltest2)
+
+### 进化树构建
+
+- [MEGA](https://www.megasoftware.net/): 功能全面的进化树构建工具，包括序列编辑、进化树构建、祖先序列重构、进化模型选择、选择压检验等
+- [Mesquite](http://www.mesquiteproject.org/): 提供ML和MP方法构建进化树
+- [PHYLIP](http://evolution.genetics.washington.edu/phylip.html)：提供NJ，ML和MP方法构建进化树
+- [PhyML](http://www.atgc-montpellier.fr/phyml/)：提供ML法构建进化树
+- [PAUP](https://paup.phylosolutions.com/)：提供MP法构建进化树
+- [PAML](http://abacus.gene.ucl.ac.uk/software/paml.html)：提供ML法构建进化树
+- [MrBayes](https://nbisweden.github.io/MrBayes/index.html)：提供贝叶斯法构建进化树
+- [IQ-TREE](http://www.iqtree.org/): 使用ML法快速构建进化树
+- [BEAST](https://www.beast2.org/): 提供贝叶斯法构建进化树
+
+### 进化树可视化
+
+- [FigTree](http://tree.bio.ed.ac.uk/software/figtree/)
+- [Dendroscope3](http://dendroscope.org/)
+- [TreeGraph](http://treegraph.bioinfweb.info/)
+- [DensiTree](https://www.cs.auckland.ac.nz/~remco/DensiTree/)
+- [NJplot](http://doua.prabi.fr/software/njplot)
+- [iTOL](https://itol.embl.de/)
+- [Evolview](https://www.evolgenius.info//evolview/#login)
+- [ggtree](https://guangchuangyu.github.io/software/ggtree/): 对进化树进行可视化和注释的R包
+
+# 表观组学
+## 可视化
+
+- [WashU Epigenome Browser](https://epigenomegateway.wustl.edu/)
+
+# 转录组学
+## 标准分析流程
+
+- [UBiT2](http://pklab.med.harvard.edu/jean/ubit2/index.html)
