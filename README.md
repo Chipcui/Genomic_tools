@@ -256,4 +256,4 @@ GFA是目前组装比较认可的格式
 
 ## 可视化
 
-- [SparK](https://github.com/harbourlab/SparK)
+- [SparK](https://github.com/harbourlab/SparK): 新型能达到发表水平的NGS可视化工具
