@@ -115,7 +115,8 @@ GFA是目前组装比较认可的格式
 
 - [Braker2](https://github.com/Gaius-Augustus/BRAKER)
 - [MAKER-P](http://www.yandell-lab.org/software/maker-p.html): 专门针对植物基因组的注释流程
-- [PASA](https://github.com/PASApipeline/PASApipeline)             
+- [PASA](https://github.com/PASApipeline/PASApipeline)
+- [EuGene](http://eugene.toulouse.inra.fr/index.html)：其中EuGene-EP适用于真核生物基因组，EuGene-PP适用于原核生物基因组           
 
 ## WGD分析
 
@@ -174,7 +175,8 @@ GFA是目前组装比较认可的格式
 - [LUMPY](https://github.com/arq5x/lumpy-sv)
 - [MetaSV](https://github.com/bioinform/metasv)
 - [FusorSV](https://github.com/timothyjamesbecker/FusorSV)
-- [Manta](https://github.com/Illumina/manta)
+- [Manta](https://github.com/Illumina/manta)：推荐的SV鉴定工具
+- [GRIDSS](https://github.com/PapenfussLab/gridss): 推荐的SV鉴定工具包，可以鉴定基因组重组
 - [Parliament2](https://github.com/dnanexus/parliament2)
 - [BreakDancer](http://gmt.genome.wustl.edu/packages/breakdancer/index.html)
 - [BreakSeq2](https://github.com/bioinform/breakseq2)
